@@ -1,0 +1,56 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node modules
+node_modules/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Next.js build output
+.next/
+out/
+
+# Production build
+dist/
+build/
+
+# OS / IDE specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Optional npm cache directory
+.npm/
+
+# Debug output
+debug.log
+
+# Test coverage
+coverage/
+
+# Local MongoDB data (if used)
+data/db/
+dump/
+
+# Optional log files from tools like nodemon
+*.log
+
+# Swagger temporary files (if any)
+swagger-output.json
+
+# TypeScript compiled files (if applicable)
+*.tsbuildinfo
